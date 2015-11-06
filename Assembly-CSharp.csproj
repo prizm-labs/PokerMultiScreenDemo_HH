@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{94BA73F9-BB3F-08B4-6B6C-EE9BE771BEF7}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Poker Pack\PokerChip.cs" />
+     <Compile Include="Assets\Scripts\BootstrapHH.cs" />
+     <Compile Include="Assets\Scripts\ClientInitialization.cs" />
+     <Compile Include="Assets\Scripts\Constants.cs" />
+     <Compile Include="Assets\Scripts\FindCardLocation.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\HandManager.cs" />
+     <Compile Include="Assets\Scripts\Meteor\CoroutineHost.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Error.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Extensions\MonoSingleton.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Extensions\ObjectExtensions.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Extensions\StringExtensions.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\DataReaderProvider.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\DataWriterProvider.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\EcmaScriptIdentifier.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\EcmaScriptWriter.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\IDataReader.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\IDataWriter.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\IJsonSerializable.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonDataReader.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonDataWriter.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonIgnoreAttribute.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonNameAttribute.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonReader.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonReaderSettings.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonSerializationException.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonSpecifiedPropertyAttribute.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonToken.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonWriter.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\JsonWriterSettings.cs" />
+     <Compile Include="Assets\Scripts\Meteor\JsonFx\TypeCoercionUtility.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\CachedCollection.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Collection.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\CollectionCollection.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Connection.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\IDataSubscriber.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\ILiveData.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\IMethod.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\LiveData.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Message.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\AddedBeforeMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\AddedMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\AddedMessage`1.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\ChangedMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\CollectionMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\ConnectMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\ConnectedMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\MethodMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\MovedBeforeMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\ReadyMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\RemovedMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\ResultMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\ResultMessage`1.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\SubscribeMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\UnsubscribeMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Messages\UpdatedMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Method.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\MongoDocument.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\Subscription.cs" />
+     <Compile Include="Assets\Scripts\Meteor\LiveData\SubscriptionCollection.cs" />
+     <Compile Include="Assets\Scripts\Meteor\SRP\BigInteger.cs" />
+     <Compile Include="Assets\Scripts\Meteor\SRP\Crypto.cs" />
+     <Compile Include="Assets\Scripts\Meteor\SRP\Hex.cs" />
+     <Compile Include="Assets\Scripts\Meteor\SRP\SHA256.cs" />
+     <Compile Include="Assets\Scripts\Meteor\SRP\SRP.cs" />
+     <Compile Include="Assets\Scripts\Meteor\SRP\UTF8.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\Accounts.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\BeginPasswordExchangeOptions.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\ChallengeResponse.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\ChallengeResponseOptions.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\CreateUserOptions.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\FacebookUser.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\InsecureLoginUserOptions.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\LoginUserResult.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\LoginUserUser.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\LoginWithTokenOptions.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\PasswordChallenge.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\PasswordExchangeVerifier.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\PasswordExchangeVerifierUser.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\Profile.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\StartExchange.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Services\Accounts\Verifier.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Tests\AccountsTests.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Tests\CollectionTests.cs" />
+     <Compile Include="Assets\Scripts\Meteor\Tests\ConnectionTestDependency.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Examples\WebSocketExample.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Plugins\Arc4RandomNumberGenerator.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Plugins\Headers.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Plugins\JsonSerializer.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Plugins\Request.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Plugins\Response.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Plugins\SimpleWWW.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Plugins\SocketIO\SocketIOHandler.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Plugins\SocketIO\SocketIOMessage.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Plugins\Utility.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Plugins\WebSocket.cs" />
+     <Compile Include="Assets\Scripts\Meteor\UniWeb\Scripts\SocketIOConnection.cs" />
+     <Compile Include="Assets\Scripts\NetworkManagerHH.cs" />
+     <Compile Include="Assets\Scripts\NetworkManagerTT.cs" />
+     <Compile Include="Assets\Scripts\PlayingCard.cs" />
+     <Compile Include="Assets\Scripts\PrizmRecord.cs" />
+     <Compile Include="Assets\Scripts\PrizmRecordGroup.cs" />
+     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
+     <Compile Include="Assets\Scripts\physicalCard.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\2D - Double Tap\Scripts\DoubleTap_Sprite.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\Hierarchy\Scripts\Heirarchy_Button.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\Hierarchy\Scripts\Heirarchy_Panel.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\Input\Scripts\InputExample.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\Input\Scripts\InputExample_Ball.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\Layers\Scripts\Layers_Sprite.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\LongPress\Scripts\LongPress_Button.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\Pan\Scripts\Pan_Button.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\Pan\Scripts\Pan_Object.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\Tap\Scripts\Tap_Breaker.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\Tap\Scripts\Tap_Spawner.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\UI\Scripts\UI_AddImage.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\UI\Scripts\UI_KillMe.cs" />
+     <Compile Include="Assets\TouchScript\Examples\General\UI\Scripts\UI_SetColor.cs" />
+     <Compile Include="Assets\TouchScript\Examples\_misc\Scripts\Example.cs" />
+     <Compile Include="Assets\TouchScript\Examples\_misc\Scripts\Examples.cs" />
+     <None Include="Assets\TouchScript\Shaders\DebugDepthTest.shader" />
+     <None Include="Assets\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
+     <None Include="Assets\Poker Pack\Readme.txt" />
+     <None Include="Assets\TouchScript\Shaders\DebugNoDepthTest.shader" />
+     <None Include="Assets\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
+     <None Include="Assets\TouchScript\Examples\_misc\Shaders\UnlitColor.shader" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>/Users/ChaosCloud/Desktop/PokerMultiscreenMobile/Assets/TouchScript/Plugins/OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TouchScript">
+ <HintPath>/Users/ChaosCloud/Desktop/PokerMultiscreenMobile/Assets/TouchScript/Plugins/TouchScript.dll</HintPath>
+ </Reference>
+ <Reference Include="TouchScript.TUIO">
+ <HintPath>/Users/ChaosCloud/Desktop/PokerMultiscreenMobile/Assets/TouchScript/Plugins/TouchScript.TUIO.dll</HintPath>
+ </Reference>
+ <Reference Include="TouchScript.Windows">
+ <HintPath>/Users/ChaosCloud/Desktop/PokerMultiscreenMobile/Assets/TouchScript/Plugins/TouchScript.Windows.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>/Users/ChaosCloud/Desktop/PokerMultiscreenMobile/Assets/TouchScript/Plugins/TUIOsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C5A12417-7482-3C70-FEF0-BC87C0363CBA}") = "PokerMultiscreenMobile", "Assembly-CSharp-vs.csproj", "{94BA73F9-BB3F-08B4-6B6C-EE9BE771BEF7}"
+EndProject
+Project("{C5A12417-7482-3C70-FEF0-BC87C0363CBA}") = "PokerMultiscreenMobile", "Assembly-CSharp-Editor-vs.csproj", "{6088A66F-DF57-3BB9-181E-8EEBD32A7CB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94BA73F9-BB3F-08B4-6B6C-EE9BE771BEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BA73F9-BB3F-08B4-6B6C-EE9BE771BEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BA73F9-BB3F-08B4-6B6C-EE9BE771BEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BA73F9-BB3F-08B4-6B6C-EE9BE771BEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6088A66F-DF57-3BB9-181E-8EEBD32A7CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6088A66F-DF57-3BB9-181E-8EEBD32A7CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6088A66F-DF57-3BB9-181E-8EEBD32A7CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6088A66F-DF57-3BB9-181E-8EEBD32A7CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
